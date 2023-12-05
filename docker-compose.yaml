@@ -1,0 +1,20 @@
+version: "3.9"
+services:
+  client:
+    networks:
+      - traefik
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    labels:
+      traefik.enable: true
+      traefik.http.routers.client.rule: Host(`promo.mper.dev`) || Host(`www.promo.mper.dev`)
+      traefik.http.routers.client.entrypoints: https
+      traefik.http.routers.promo8-website.middlewares: www-promo-website-redirect
+      traefik.http.middlewares.www-promo-website-redirect.redirectregex.regex: https://promo.mper.dev/(.*)
+      traefik.http.middlewares.www-promo-website-redirect.redirectregex.replacement: https://promo.mper.dev/$${1}
+      traefik.http.middlewares.www-promo-website-redirect.redirectregex.permanent: true
+
+networks:
+  traefik:
+    external: true

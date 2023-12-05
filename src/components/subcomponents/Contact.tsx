@@ -13,11 +13,7 @@ const Contact: React.FC = () => {
         Interested in Crewlock?
       </Heading>
       <Text fontSize="24px" textAlign="center" color="white" maxWidth={1000}>
-        At CrewLock, we believe in the power of collaboration, creativity, and
-        connection. Whether you're a director, cinematographer, editor, or any
-        other role in the filmmaking industry, CrewLock is your dedicated space
-        to showcase your talent, build meaningful connections, and bring your
-        cinematic visions to life.
+        Contact us at info@crewlock.com
       </Text>
     </Box>
   );
