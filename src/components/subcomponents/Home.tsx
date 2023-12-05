@@ -13,7 +13,7 @@ const Home: React.FC = () => {
         Welcome to Crewlock
       </Heading>
       <Text fontSize="24px" textAlign="center" color="white">
-        Your window into your next crew
+        Your window into your next production crew
       </Text>
     </Box>
   );

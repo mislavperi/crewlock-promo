@@ -16,7 +16,7 @@ const Page: React.FC<PageProps> = ({ section, refCallback }) => {
 
   return (
     <Flex
-      height="100vh"
+      height="120vh"
       width="100%"
       alignItems="center"
       justifyContent="center"

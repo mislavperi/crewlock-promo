@@ -4,6 +4,8 @@ import Overlay from "./components/Overlay";
 import Page from "./components/Page";
 import Home from "./components/subcomponents/Home";
 import About from "./components/subcomponents/About";
+import Features from "./components/subcomponents/Features";
+import Contact from "./components/subcomponents/Contact";
 
 const sections = [
   {
@@ -17,18 +19,20 @@ const sections = [
     id: "about",
     href: "#about",
     bgImage:
-      "https://images.pexels.com/photos/8089662/pexels-photo-8089662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2467506/pexels-photo-2467506.jpeg",
     component: <About />,
   },
   {
     id: "features",
     href: "#features",
-    component: <Home />,
+    bgImage: "https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg",
+    component: <Features />,
   },
   {
     id: "contact",
     href: "#contact",
-    component: <Home />,
+    bgImage: "https://images.pexels.com/photos/821754/pexels-photo-821754.jpeg",
+    component: <Contact />,
   },
 ];
 

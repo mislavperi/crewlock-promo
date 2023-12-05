@@ -1,7 +1,7 @@
 import { Heading, Box, Text } from "@chakra-ui/react";
 import React from "react";
 
-const About: React.FC = () => {
+const Contact: React.FC = () => {
   return (
     <Box>
       <Heading
@@ -10,7 +10,7 @@ const About: React.FC = () => {
         textAlign="center"
         color="white"
       >
-        We are Crewlock
+        Interested in Crewlock?
       </Heading>
       <Text fontSize="24px" textAlign="center" color="white" maxWidth={1000}>
         At CrewLock, we believe in the power of collaboration, creativity, and
@@ -23,4 +23,4 @@ const About: React.FC = () => {
   );
 };
 
-export default About;
+export default Contact;
