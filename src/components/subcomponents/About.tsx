@@ -12,7 +12,7 @@ const About: React.FC = () => {
       >
         We are Crewlock
       </Heading>
-      <Text fontSize="24px" textAlign="center" color="white" maxWidth={1000}>
+      <Text fontSize="24px" textAlign="center" color="white" maxWidth={700}>
         At CrewLock, we believe in the power of collaboration, creativity, and
         connection. Whether you're a director, cinematographer, editor, or any
         other role in the filmmaking industry, CrewLock is your dedicated space
